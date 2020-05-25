@@ -6,4 +6,5 @@ python:
   - "nightly"
 scripts:
   - python -m doctest counter.py
+  - python -m unittest
   - pytest
